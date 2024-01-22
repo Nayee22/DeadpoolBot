@@ -5,11 +5,11 @@ throw false
 }
 let vn = './media/Invocar.mp3'
 let pesan = args.join` `
-let oi = `*𝙈𝙚𝙣𝙨𝙖𝙟𝙚:* ${pesan}`
-let teks = `╭┄〔 *${wm}* 〕┄⊱\n┆ 𝘼𝙘𝙩𝙞𝙫𝙚𝙣𝙨𝙚 𝙥𝙡𝙖𝙣𝙩𝙖𝙨 🙊*\n┆\n┆❏ ${oi}\n┆\n┆❏ *𝙀𝙩𝙞𝙦𝙪𝙚𝙩𝙖𝙨:*\n`
+let oi = `*𝘊𝘢𝘥𝘢 𝘲𝘶𝘪𝘦𝘯 𝘦𝘴𝘤𝘳𝘪𝘣𝘦 𝘦𝘭 𝘭𝘪𝘣𝘳𝘰 𝘥𝘦 𝘴𝘶 𝘷𝘪𝘥𝘢 🪽.* ${pesan}`
+let teks = `╭┄〔 *${wm}* 〕┄⊱\n┆ ⚜️• 𝙄𝙉𝙑𝙊𝘾𝘼𝙉𝘿𝙊 𝙂𝙍𝙐𝙋𝙊 • ⚜️*\n┆\n┆❏ ${oi}\n┆\n┆❏ *𝙀𝙩𝙞𝙦𝙪𝙚𝙩𝙖𝙨:*\n`
 for (let mem of participants) {
-teks += `┆🙈 @${mem.id.split('@')[0]}\n`}
-teks += `└ @𝐦𝐨𝐧𝐤𝐢_𝐛𝐨𝐭 🐵 \n\n`
+teks += `💀▪︎. @${mem.id.split('@')[0]}\n`}
+teks += `└ 𝐃𝐄𝐀𝐃𝐏𝐎𝐎𝐋 ⚜️•.\n\n`
 conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )
 conn.sendFile(m.chat, vn, 'Invocar.mp3', null, m, true, { type: 'audioMessage', ptt: true, sendEphemeral: true })
 }
